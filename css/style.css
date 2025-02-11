@@ -1,0 +1,1023 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* background-color: gray; */
+
+    
+}
+
+.navbar{
+    width: 180%;
+    height: 10%;
+    top: 10px;
+    display: flex;
+    position: relative;
+    /* z-index: -2; */
+    background-color: rgba(0, 255, 255, 0);
+    
+}
+
+.navbar img{
+    background-color: gray;
+    width: 20%;
+    margin-right: -20px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+.list li{
+    display: flex;
+    margin: 10px;
+}
+.navbar button{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 27px;
+    left: 100px;
+}
+
+.define{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-image: linear-gradient(135deg, transparent 45%, #ff214f 45%, #9c2531 55%, transparent 0);
+    background-size: 5px 5px;
+    justify-content: center;
+    
+}
+.real{
+    position: relative;
+    top:120px;
+    
+}
+.child{
+    width: 10%;
+    height: 50%;
+    
+    position: relative;
+    left: 600px;
+    display: flex;
+    flex-direction:column;
+    bottom: 410px;
+    justify-content: center;
+    align-items: center;
+}
+.child h4 {
+    font-size: 13px;
+    transform: translateY(0px);
+    rotate: -90deg;
+    color: white;
+    font-weight: 900;
+    margin: 0;
+}
+.future{
+    font-weight: 900;
+    font-size: 100px;
+    position: relative;
+    bottom: 70px;
+    /* text-align: center; */
+}
+.school{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+}
+.jokes{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    left:30px;
+    background-color: black;
+    border: none;
+}
+.student{
+    font-size: 25px;
+    position: relative;
+    bottom: 140px;
+    font-weight: 500;
+    left: 150px;
+}
+
+.animation{
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/main2.jpg);
+    background-size: cover;
+    display: flex;
+    
+}
+.small{
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 339px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.small img{
+    width: 50px;
+    height: 55px;
+    position: relative;
+    top: 90px;
+    right: 60px;
+    rotate: 25deg;
+}
+.small h2{
+    font-weight: 900;
+    font-size: 55px;
+    position: relative;
+    bottom: 20px;
+    right:55px;
+}
+.small h1{
+    font-size: 40px;
+    position: relative;
+    bottom: 35px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+
+.page2{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.text{
+    height: 10%;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.workplaces{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 50px; */
+      position: relative; 
+    top: 10%;
+
+}
+.workplaces p{
+    position: relative;
+    left: 7%;
+}
+.images{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+.safcom{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.safcom img{
+    height: 35px;
+    width: 95px;
+}
+.google{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+   .google img{
+    height: 35px;
+    width: 95px;
+   }
+   .mkopa{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+   .mkopa img{
+    height: 35px;
+    width: 95px;
+   }
+   .kra{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+   .kra img{
+    height: 30px;
+    width: 105px;
+   }
+   .andela{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+   .andela img{
+    height: 30px;
+    width: 95px;
+   }
+   .center{
+    width:100%;
+    height:40%;
+    display: flex;
+   }
+   .develop{
+    height: 100%;
+    width: 50%;
+    display: flex;
+   }
+   .develop  h1{
+
+    font-weight: 900;
+    font-size: 55px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    left: 79px;
+    z-index: 19;
+   }
+   .develop img{
+    height: 50px;
+    width: 200px;
+position:relative;
+top: 270px;
+right: 275px;
+rotate: 7deg;
+   }
+.empower{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(7, 7, 170);
+    border-radius: 50%;
+    position: relative;
+    top: 110px;
+    right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.circle h1{
+    font-weight: 900;
+    color: white;
+    font-size: 100px;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+.word{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.word h1{
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 110px;
+    left: -2px;
+}
+.word p{
+    font-size: 20px;
+    position: relative;
+    top: 90px;
+    right:25px;
+}
+.page3{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+.page3 div{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.page4{
+    height: 80vh;
+width: 100%;
+background-color: black;
+overflow: hidden;
+
+
+}
+.page4 h1{
+    font-size: 65px;
+    font-weight: 500;
+    color: white;
+    margin-left: 75px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.page5{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+    overflow: hidden;
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-top: 1px solid gray;
+    height: 20%;
+}
+.one p{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 12px;
+}
+.one h1{
+    position: relative;
+    top: 55px;
+}
+.one h2{
+    position: relative;
+    top: 59px;
+}
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-top: 1px solid gray;
+    height: 20%;
+}
+.two p{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    right: 2px;
+}
+.two h1{
+    position: relative;
+    left: 10px;
+    top: 55px;
+}
+.two h2{
+    position: relative;
+    top: 59px;
+}
+.three{
+    display: flex;
+    justify-content: space-evenly;
+margin: 20px;
+border-top: 1px solid gray;
+height: 20%;
+}
+.three p{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 37px;
+}
+.three h1{
+    position: relative;
+    left: 55px;
+    top: 55px;
+}
+.three h2{
+    position: relative;
+    top: 59px;
+}
+.four{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-top: 1px solid gray;
+    height: 20%;
+}
+.four p{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 2px;
+}
+.four h1{
+    position: relative;
+    top: 55px;
+}
+.four h2{
+    position: relative;
+    top: 59px;
+}
+.none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    height: 20%;
+}
+.none p{
+    font-size: 22px;
+    font-weight: 300;
+}
+.page6{
+    width: 100%;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.path{
+    width: 100%;
+    height: 30vh;
+    
+}
+.path h1{
+    color: black;
+    position: relative;
+    top: 87px;
+    left: 90px;
+    font-size: 45px;
+    font-weight: 800;
+}
+.path p{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 67px;
+    left: 90px;
+}
+.img1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.riri{
+    background-image: url(/images/workshop6.jpg);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+.riri h1{
+    font-size:14px;
+    position: relative;
+    top: 70px;
+    
+}
+.riri h2{
+    position: relative;
+    top: 78px;
+    font-weight: 550;
+    font-size: 30px;
+}
+.riri button{
+    position: relative;
+    top: 80px;
+    height: 40px;
+}
+.machine{
+    background-image: url(/images/main4.jpg);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+.machine h1{
+    font-size:14px;
+    position: relative;
+    top: 70px;
+    
+}
+.machine h2{
+    position: relative;
+    top: 78px;
+    font-weight: 550;
+    font-size: 30px;
+}
+.machine button{
+    position: relative;
+    top: 80px;
+    height: 40px;
+}
+.data{
+    background-image: url(/images/intro.jpg);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+.data h1{
+    font-size:14px;
+    position: relative;
+    top: 70px;
+    
+}
+.data h2{
+    position: relative;
+    top: 78px;
+    font-weight: 550;
+    font-size: 30px;
+}
+.data button{
+    position: relative;
+    top: 80px;
+    height: 40px;
+}
+.robot{
+    background-image: url(/images/robot.jpg);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+.robot h1{
+    font-size:14px;
+    position: relative;
+    top: 70px;
+    
+}
+.robot h2{
+    position: relative;
+    top: 78px;
+    font-weight: 550;
+    font-size: 30px;
+}
+.robot button{
+    position: relative;
+    top: 80px;
+    height: 40px;
+}
+.block{
+    background-image: url(/images/main10.jpg);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+.block h1{
+    font-size:14px;
+    position: relative;
+    top: 70px;
+    
+}
+.block h2{
+    position: relative;
+    top: 78px;
+    font-weight: 550;
+    font-size: 30px;
+}
+.block button{
+    position: relative;
+    top: 80px;
+    height: 40px;
+}
+.akon{
+    background-image: url(/images/alltwo.png);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+.akon h1{
+    font-size:14px;
+    position: relative;
+    top: 70px;
+    
+}
+.akon h2{
+    position: relative;
+    top: 78px;
+    font-weight: 550;
+    font-size: 30px;
+}
+.akon button{
+    position: relative;
+    top: 80px;
+    height: 40px;
+}
+.img2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page7{
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.wayne{
+    height: 50vh;
+    width: 100%;
+}
+.wayne h1{
+    font-size: 50px; 
+    position: relative;
+    left: 90px;
+
+}
+.wayne img{
+    width: 155px;
+    height: 50px;
+    position: relative;
+    top: 99px;
+    left: 680px;
+}
+.marshall{
+    width: 100%;
+    display: flex;
+}
+.dre{
+    width: 35%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dre p{
+    font-size: 17px;
+    margin-left: 100px;
+}
+.dre button{
+    margin-left: 100px;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+}
+.snoop{
+    display: flex;
+    width: 60%;
+    border-right: 1px solid rgb(71, 68, 68);
+    height: 200vh;
+    border-left: 1px solid rgb(71, 68, 68);
+}
+.rocky{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(71, 68, 68);
+}
+
+.pac p{
+    font-size: 21px;
+    font-weight: 300;
+    position: relative;
+    left: 90px;
+    margin-bottom: 110px;
+}
+.pac h1{
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+}
+.biggie p{
+    font-size: 21px;
+    font-weight: 300;
+    position: relative;
+    left: 90px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.biggie h1{
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+}
+.lamar{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.drake p{
+    font-size: 21px;
+    font-weight: 300;
+    position: relative;
+    left: 90px;
+    margin-bottom: 110px;
+}
+.drake h1{
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+}
+.cole p{
+    font-size: 21px;
+    font-weight: 300;
+    position: relative;
+    left: 90px;
+    margin-bottom: 110px;
+    margin-top: 110px;
+}
+.cole h1{
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+}
+.page8{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(/images/demo-digital-agency-bg-01.jpg);
+}
+.compton{
+ width: 100%;
+    height: 70%;
+}
+.compton h1{
+    font-size: 50px;
+    font-weight: 500;
+    
+    color: white;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.detroit{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+.eastside h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+.westside h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 90px;
+}
+.page9{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.rome{
+    display:flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+}
+.rome h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.rome h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+.inca{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.maya{
+    
+    width: 350px;
+    height: 330px;
+    margin-right: -40px;
+    background-image: url(/images/live.jpg);
+    background-size: cover;
+}
+.maya h1{
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 190px;
+    color: white;
+}
+.maya button{
+    margin-left: 60px;
+    margin-top: 60px;
+    height: 30px;
+}
+.aztec{
+    
+    width: 350px;
+    height: 330px;
+    background-image: url(/images/homethree.jpg);
+    background-size: cover;
+}
+.aztec h1{
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 190px;
+    color: white;
+}
+.aztec button{
+    margin-left: 60px;
+    margin-top: 60px;
+    height: 30px;
+}
+.azul{
+    
+    width: 350px;
+    height: 330px;
+    margin-left: -40px;
+    background-image: url(/images/startup.jpg);
+    background-size: cover;
+}
+.azul h1{
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 170px;
+    color: white;
+}
+.azul button{
+    margin-left: 60px;
+    margin-top: 60px;
+    height: 30px;
+}
+.page10{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150vh;
+}
+.aladin{
+    width: 100%;
+    height: 20%;
+}
+.aladin h1{
+    font-size: 130px;
+}
+.rheinard{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.recognize{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.recognize h1{
+    font-size: 50px;
+    margin-left: 100px;
+}
+.covid p{
+font-size: 30px;
+}
+.covid{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -200px;
+}
+.work img{
+    width: 150px;
+    height: 80px;
+}
+.page11{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    margin-top: -200px;
+}
+.diddy{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.diddy h1{
+    color: white;
+    font-weight: 200;
+}
+.diddy p{
+    color: grey;
+    font-weight: 700;
+}
+.mills input{
+    height: 35px;
+    border-radius: 5px;
+    width: 170px;
+    border: none;
+}
+.mills button{
+    height: 39px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: 12px;
+    margin-left: -2px;
+}
+.cosby{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    color: grey;
+}
+.cosby img{
+    width: 200px;
+    height: 100px;
+}
